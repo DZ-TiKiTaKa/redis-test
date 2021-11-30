@@ -17,7 +17,6 @@ public class RedisService {
 		ValueOperations<String, String> svo = stringRedisTemplate.opsForValue();
 		System.out.println(key);
 		System.out.println(svo.get(key));
-		System.out.println(svo.get(key));
 		
 		
 	}
